@@ -1,0 +1,53 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#searchbar {
+}
+
+main {
+  margin-top: 0px;
+  margin-left: 25rem;
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body, html {
+    overflow-x: hidden;
+  }
+
+  main {
+    position: relative;
+    right: 300px;
+  }
+
+  main img{
+    width: 180px  ;
+    right: 100px;
+  }
+  sidebar{
+    display: none; 
+  }
+  
+  p{
+    position: relative;
+    right: 50px;
+    margin-right: -300px;
+  }
+  
+}
+
